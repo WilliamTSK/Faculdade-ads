@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Formulário</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form name="cadastro" method="get" action="grava.jsp">
+            <label for="txtNome">Nome:</label>
+            <input type="text" name="txtNome" id="txtNome" maxlength="5">
+            <br>
+            
+            <label for="txtSenha">Senha:</label>
+            <input type="password" name="txtSenha" id="textSenha">
+
+            <br>
+           <label for="textmensagem"> mensagem:</label> <br>
+           <textarea name="textmensagem" id="textmensagem" cols="30" rows="10" placeholder="Digite uma mensagem"></textarea> <br>
+
+           <label for="txtSexo">Sexo</label>
+           <input type="radio" name="txtSexo" id="txtSexoM" value="M">Masculino
+           <input type="radio" name="txtSexo" id="txtSexoF" value="F">Feminino <br>
+
+           <label for="Revista">Revista:</label>
+           <input type="checkbox" name="revista" id="Veja" value="Veja">Veja
+           <input type="checkbox" name="revista" id="Exame" value="Exame">Exame
+           <input type="checkbox" name="revista" id="Info" value="Info">Info
+           <br>
+
+           <label for="Estado">Estado:</label>
+           <select name="Estado" id="Estado">
+               <option value="SP">São Paulo</option>
+               <option value="RJ">Rio de Janeiro</option>
+               <option value="SC">Santa Catarina</option>
+           </select>
+           <br>
+
+           <input type="submit" value="Gravar">
+           <input type="reset" value="Limpar">
+
+
+        </form>
+            
+    </body>
+</html>

@@ -1,0 +1,28 @@
+h1 {
+    color:blueviolet;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:35px;
+    font-style:italic;
+    font-weight:bold;
+
+    text-align: center;
+
+    border-color: black;
+    border-style: solid;
+    border-top-width: 5px; 
+    border-radius: 10px;
+
+    background-color: aqua;
+}
+
+p {
+    background-color: azure;
+    padding: 10px;
+}
+
+body {
+    /*background-color: blue;*/
+    background-image:url(Css.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

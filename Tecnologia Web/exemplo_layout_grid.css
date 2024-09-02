@@ -1,0 +1,25 @@
+#conteiner{
+    display:grid;
+    width:100%;
+    height:100%;
+    grid-template-areas:"header"
+    "content"
+    "footer";
+
+    grid-template-rows: 120px 70vh 80px;
+}
+
+#cabecalho{
+    grid-area:header;
+    border: 1px solid gray;
+}
+
+#conteudo{
+    grid-area:content;
+    border: 1px solid gray;
+}
+
+#rodape{
+    grid-area:footer;
+    border: 1px solid gray;
+}

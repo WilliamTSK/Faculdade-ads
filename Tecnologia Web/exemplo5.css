@@ -1,0 +1,11 @@
+.titulo1{
+    background-color: aqua;
+    border-left:15px solid rgb(94, 5, 5);
+    padding-left: 10px;
+}
+
+.titulo2{
+    background-color: rgb(85, 0, 255);
+    border-left: 15px dotted red;
+    padding-left: 10px;
+}

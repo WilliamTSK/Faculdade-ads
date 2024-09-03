@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: blue;
+    
+    width:100% ;
+    padding: 20px;
+}
+
+header h1{
+    color:white;
+    text-align: center
+}
+
+#conteiner{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+nav{
+    width: 150px;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+main{
+    background-color: lightcyan;
+    flex-grow: 1px;
+    padding: 20px;
+    width: 100%;
+}
+
+footer{
+    background-color: bisque;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer p {
+    color: darkred;
+    font-size: 1.5rem;
+}

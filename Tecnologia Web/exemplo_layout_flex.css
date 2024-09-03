@@ -1,0 +1,11 @@
+#conteiner{
+    display:flex;
+    flex-direction: column;
+}
+
+.item{
+    background-color:aquamarine;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+}

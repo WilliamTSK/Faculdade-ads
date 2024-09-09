@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to right, #147322,#1B8C2C,#11591C);
+}
+
+#menu {
+    background-color: rgb(7, 0, 0);
+}
+
+#menu ul {
+    list-style:none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: rgb(245, 234, 234);
+    text-decoration: none ;
+    padding: 20px;
+    display: inline-block;
+}
+
+#menu ul li a:hover{
+    background-color: beige;
+    transition: 0.4s;
+}

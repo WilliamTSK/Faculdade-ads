@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form1">
+        <select name="cores" onchange="Troca_cor()">
+            <option value="white">Branco</option>
+            <option value="black">Preto</option>
+            <option value="red">Vermelho</option>
+            <option value="yellow">Amarelo</option>
+            <option value="blue">Azul</option>
+            <option value="pink">Rosa</option>
+            <option value="green">Verde</option>
+            <option value="purple">Roxo</option>
+            <option value="gray">Cinza</option>
+        </select>
+    </form>
+    <script>
+        function troca_cor() 
+        {
+           var cor = document.form1.cores.value ;
+           document.body.style.backgroundColor = cor ;
+        }
+    </script>
+</body>
+</html>

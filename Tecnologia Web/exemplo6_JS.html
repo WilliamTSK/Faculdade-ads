@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome = navigator.appName
+        var versao = navigator.appVersion
+        
+        document.write("nome do navegador" + nome);
+        document.write("<br>")
+        document.write("versão do navegador" + versao);
+
+        var tela = window.open("https://www.eniac.edu.br/","_blank","width=800, height=600");
+
+        setTimeout(()=> tela.close() ,5000)
+
+        setInterval(() => document.write("oi <br>"),2000);
+    </script>
+</body>
+</html>
